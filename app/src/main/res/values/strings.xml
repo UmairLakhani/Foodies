@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Registration</string>
+    <string name="hint">Email</string>
+    <string name="title_activity_restaurant_dash_board">Restaurant Dash Board</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Send Your Feedback</string>
+    <string name="title_activity_user_dash_board">UserDashBoard</string>
+    <string name="title_activity_shugal">shugal</string>
+
+    <string name="title_activity_confirmation_dialog">ConfirmationDialog</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

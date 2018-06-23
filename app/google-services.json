@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "53003443258",
+    "firebase_url": "https://project-4d2b1.firebaseio.com",
+    "project_id": "project-4d2b1",
+    "storage_bucket": "project-4d2b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53003443258:android:345e86b8fffb1f71",
+        "android_client_info": {
+          "package_name": "com.fa15be0013.umair.registration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53003443258-qp80nffkd9d0qcpq32d7mbbto8k1i0d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgXQtAAXVaHHfBiZl-HfNTlJdnKQhPR_E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

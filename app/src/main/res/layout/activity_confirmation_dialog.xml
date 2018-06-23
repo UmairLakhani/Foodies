@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#282224"
+    tools:context="com.fa15be0013.umair.registration.ConfirmationDialog">
+
+    <TextView
+        android:id="@+id/DishName"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#282224"
+        android:text="Reshmi Handi"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:id="@+id/counter"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/Decrement"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/Increment"
+            android:layout_marginLeft="81dp"
+            android:layout_marginStart="81dp"
+            app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+        <ImageView
+            android:id="@+id/Increment"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="57dp"
+            android:layout_marginRight="57dp"
+            app:srcCompat="@mipmap/ic_launcher_add" />
+
+        <EditText
+            android:id="@+id/txtQuantity1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/Decrement"
+            android:layout_toEndOf="@+id/Decrement"
+            android:layout_toLeftOf="@+id/Increment"
+            android:layout_toRightOf="@+id/Decrement"
+            android:layout_toStartOf="@+id/Increment"
+            android:ems="10"
+            android:inputType="number"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="Quantity"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/button_cancel" />
+
+        <ImageView
+            android:id="@+id/btnAddtocart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/button_addtocart" />
+
+    </LinearLayout>
+
+</LinearLayout>

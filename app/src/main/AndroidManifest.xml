@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fa15be0013.umair.registration">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RestaurantRegister" />
+        <activity android:name=".UserRegister" />
+        <activity android:name=".RestaurantManage" />
+        <activity android:name=".Linked" />
+        <activity android:name=".SetMenu" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".ShowMenu" />
+        <activity
+            android:name=".RestaurantDashBoard"
+            android:label="@string/title_activity_restaurant_dash_board"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UserDashBoard"
+            android:label="@string/title_activity_user_dash_board"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ConfirmationDialog"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert" />
+        <activity android:name=".AddToCart" />
+        <activity android:name=".Finalise" />
+        <activity android:name=".OrderDetails"></activity>
+    </application>
+
+</manifest>
